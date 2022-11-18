@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background-color: black;
+}
+
+.logo
+{
+   margin-left: 615px;
+   padding-top: 12px;
+}
+
+
+/*Trabalhando menu */
+
+header
+{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    
+
+}
+
+#menu
+{
+    display: flex;
+    gap: 1rem;
+    border-top: white groove thick;
+    border-bottom: white groove thick;
+}
+
+#menu a
+{
+    color: cyan;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10pt;
+    font-weight: lighter;
+    text-shadow: 0 0 15px cyan;
+   
+}
+
+#menu li a:hover
+{
+    color: white;
+    text-shadow: 0 0 15px white;
+}
+
+/*texto*/
+.intro
+{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+h4
+{
+    display: block;
+    margin-block-start: 5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+span
+{
+    color: red;
+    text-shadow: 0 0 15px red;
+}
+
+/*Conteúdo*/
+.container-text
+{
+   padding: 150px 0 0 130px;
+}
+
+/*Rodapé*/
+footer#rodape
+{
+    border-top: white groove;
+    border-bottom: white groove thick;
+}
+
+footer#rodape p
+{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11pt;
+}
+
+.navbar ul li 
+{
+    gap: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
