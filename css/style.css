@@ -7,7 +7,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  background-color: black;
+ background-image: url(https://i.gifer.com/WBVk.gif);
 }
 
 .logo
@@ -47,13 +47,21 @@ header
     font-size: 10pt;
     font-weight: lighter;
     text-shadow: 0 0 15px cyan;
-   
 }
 
 #menu li a:hover
 {
     color: white;
     text-shadow: 0 0 15px white;
+}
+
+h1
+{
+    color: rgb(231, 31, 171);
+    text-align: center;
+    text-shadow: -1px -1px cyan, 2px 2px #333;
+    padding-top: 8px;
+    
 }
 
 /*texto*/
@@ -73,6 +81,7 @@ h4
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    margin-top: 8px;
 }
 
 span
@@ -87,6 +96,24 @@ span
    padding: 150px 0 0 130px;
 }
 
+.botao
+{
+    background-color: white;
+    color: white;
+    border: 1px solid cyan;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.botao :hover
+{
+    background-color: cyan;
+    color: white;
+}
+
 /*Rodapé*/
 footer#rodape
 {
@@ -97,7 +124,7 @@ footer#rodape
 footer#rodape p
 {
     text-align: center;
-    color: white;
+    color: yellow;
     font-family: 'Roboto Mono', monospace;
     font-size: 11pt;
 }
