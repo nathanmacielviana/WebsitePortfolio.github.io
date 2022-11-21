@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gumball');
 *
 {
   margin: 0;
@@ -7,7 +8,6 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
- background-image: url(https://i.gifer.com/WBVk.gif);
 }
 
 .logo
@@ -15,7 +15,6 @@
    margin-left: 615px;
    padding-top: 12px;
 }
-
 
 /*Trabalhando menu */
 
@@ -37,6 +36,7 @@ header
     gap: 1rem;
     border-top: white groove thick;
     border-bottom: white groove thick;
+    box-shadow: 0 0 15px aliceblue;
 }
 
 #menu a
@@ -57,11 +57,37 @@ header
 
 h1
 {
-    color: rgb(231, 31, 171);
+    color: rgb(236, 89, 163);
+    border-top: groove thick;
+    border-bottom: groove thick;
     text-align: center;
-    text-shadow: -1px -1px cyan, 2px 2px #333;
+    text-shadow: -1px -1px aliceblue, 2px 2.2px cyan;
     padding-top: 8px;
-    
+    font-family: 'Gumball', sans-serif;
+    font-weight: lighter;
+    box-shadow: 0 0 15px aliceblue;
+    background-color: black;
+}
+
+
+.moon
+{
+ padding: 150px 90 90 230px;
+ margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.containermoon
+{
+    border: groove medium;
+    width: 222px;
+    text-align: center;
+    margin-block-start: 1rem;
+    justify-content: right;
+    justify-items: right;
+    background-color: black;
 }
 
 /*texto*/
@@ -93,32 +119,91 @@ span
 /*Conteúdo*/
 .container-text
 {
-   padding: 150px 0 0 130px;
+   padding: 150px 120 120 230px;
+   border: groove thick;
+   background-color: black;
+   width: 350px;
+   text-align: center;
+   margin-block-start: 1rem;
+}
+
+.intro h1
+{
+    font-size: 12pt;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: rgb(17, 111, 114);
+    text-shadow: 0 0 10px black;
+    margin-block-start: 0;
+    margin-block-end: 3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-shadow: none;
+}
+
+/*Direita*/
+.container-text2
+{
+    
+    border: groove medium;
+    width: 350px;
+    text-align: center;
+    margin-block-start: 1rem;
+    justify-content: right;
+    justify-items: right;
+    background-color: black;
+}
+
+.dev h1
+{
+    font-size: 12pt;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: rgb(17, 111, 114);
+    text-shadow: 0 0 10px black;
+    margin-block-start: 0;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 300px 300 300 350px;
+    box-shadow: none;
+}
+
+.dev p
+{
+    color: yellow;
+    list-style-type: square;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    font-size: 10pt;
 }
 
 .botao
 {
-    background-color: white;
-    color: white;
-    border: 1px solid cyan;
-    border-radius: 4px;
+    border-top: groove medium;
+    border-bottom: groove medium;
+    border-radius: 2px;
     width: 100px;
     height: 30px;
     cursor: pointer;
-    transition: 1s;
+    border-color: gray;
 }
 
-.botao :hover
+.navbar ul li 
 {
-    background-color: cyan;
-    color: white;
+    gap: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em; 
 }
+
 
 /*Rodapé*/
 footer#rodape
 {
     border-top: white groove;
     border-bottom: white groove thick;
+    box-shadow: 0 0 4px aliceblue;
+    background-color: black;
 }
 
 footer#rodape p
@@ -129,9 +214,5 @@ footer#rodape p
     font-size: 11pt;
 }
 
-.navbar ul li 
-{
-    gap: 2rem;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-}
+
+
