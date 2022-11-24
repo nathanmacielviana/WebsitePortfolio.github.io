@@ -1,0 +1,26 @@
+.central h1
+{
+    color: white;
+     text-align: center;
+     font-family: 'Roboto Mono', monospace;
+     background-color: cadetblue;
+     box-shadow: 0 0 14px cadetblue;
+     border: groove medium;
+     text-shadow: none;
+     font-size: 13pt;
+     width: 50%;
+     margin-block-start: 3rem;
+     margin-left: 2%;
+}
+
+.central p
+{
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    border: groove medium;
+    color: white;
+    width: 50%;
+    margin-left: 2%;
+    box-shadow: 0 0 14px cadetblue;
+}

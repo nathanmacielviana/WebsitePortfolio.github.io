@@ -10,14 +10,29 @@
   list-style: none;
 }
 
+/*Scroll de caesar*/
+::-webkit-scrollbar {
+    width: 16px;
+    max-width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BDBDBD;
+    border: #DFDFDF 2px outset;
+}
+
+::-webkit-scrollbar-track {
+    background-color: aliceblue;
+}
+
 .logo
 {
    margin-left: 615px;
    padding-top: 12px;
 }
 
-/*Trabalhando menu */
 
+/*MENU */
 header
 {
     display: flex;
@@ -26,8 +41,6 @@ header
     align-items: center;
     text-align: center;
     padding-top: 3rem;
-    
-
 }
 
 #menu
@@ -55,20 +68,50 @@ header
     text-shadow: 0 0 15px white;
 }
 
+
 h1
 {
     color: rgb(236, 89, 163);
-    border-top: groove thick;
-    border-bottom: groove thick;
     text-align: center;
     text-shadow: -1px -1px aliceblue, 2px 2.2px cyan;
-    padding-top: 8px;
+    padding-top: 2px;
     font-family: 'Gumball', sans-serif;
     font-weight: lighter;
-    box-shadow: 0 0 15px aliceblue;
+}
+
+.bemvindo h1
+{
+     color: white;
+     text-align: center;
+     margin-block-start: 2rem;
+     font-family: 'Roboto Mono', monospace;
+     text-shadow: none;
+    text-align: center;
+    background-color: cadetblue;
+    height: 20%;
+     width: 40%;
+     margin-left: 28%;
+}
+
+.bemvindo p
+{
+    text-align: left;
+    margin-left: 27%;
+    padding-bottom: 2%;
+    color: white;
+    border: double medium cadetblue;
+    width: 40%;
+
     background-color: black;
 }
 
+#cesar
+{
+    position: absolute;
+	left: 38%;
+	top: 58%;
+    bottom: 50%;
+}
 
 .moon
 {
@@ -81,7 +124,7 @@ h1
 
 .containermoon
 {
-    border: groove medium;
+    border: groove thin;
     width: 222px;
     text-align: center;
     margin-block-start: 1rem;
@@ -90,7 +133,7 @@ h1
     background-color: black;
 }
 
-/*texto*/
+/*INTRODUÇÃO*/
 .intro
 {
     color: white;
@@ -114,17 +157,20 @@ span
 {
     color: red;
     text-shadow: 0 0 15px red;
+    font-weight: bold;
 }
 
 /*Conteúdo*/
 .container-text
 {
-   padding: 150px 120 120 230px;
-   border: groove thick;
+   padding: 250px 10 120 230px;
+   border: groove medium;
    background-color: black;
    width: 350px;
    text-align: center;
    margin-block-start: 1rem;
+   box-shadow: 0 0 12px cadetblue;
+   width: 25%;
 }
 
 .intro h1
@@ -132,16 +178,18 @@ span
     font-size: 12pt;
     font-family: 'Roboto Mono', monospace;
     color: white;
-    background-color: rgb(17, 111, 114);
-    text-shadow: 0 0 10px black;
+    background-color: cadetblue;
     margin-block-start: 0;
     margin-block-end: 3em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     box-shadow: none;
+    text-align: center;
+    text-shadow: none;
 }
 
-/*Direita*/
+
+/*UPDATE*/
 .container-text2
 {
     
@@ -149,9 +197,10 @@ span
     width: 350px;
     text-align: center;
     margin-block-start: 1rem;
-    justify-content: right;
-    justify-items: right;
     background-color: black;
+    box-shadow: 0 0 12px cadetblue;
+    width: 25%;
+    box-sizing: border-box;
 }
 
 .dev h1
@@ -159,25 +208,27 @@ span
     font-size: 12pt;
     font-family: 'Roboto Mono', monospace;
     color: white;
-    background-color: rgb(17, 111, 114);
-    text-shadow: 0 0 10px black;
+    text-align: center;
+    background-color: cadetblue;
+    text-shadow: none;
     margin-block-start: 0;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding: 300px 300 300 350px;
     box-shadow: none;
 }
 
 .dev p
 {
-    color: yellow;
+    color: white;
     list-style-type: square;
     font-family: 'Roboto Mono', monospace;
     text-align: left;
     font-size: 10pt;
+    padding-left: 2%;
 }
 
+/*Botão*/
 .botao
 {
     border-top: groove medium;
@@ -191,7 +242,7 @@ span
 
 .navbar ul li 
 {
-    gap: 2rem;
+    gap: 8rem;
     margin-block-start: 1em;
     margin-block-end: 1em; 
 }
@@ -204,6 +255,7 @@ footer#rodape
     border-bottom: white groove thick;
     box-shadow: 0 0 4px aliceblue;
     background-color: black;
+    position: relative;
 }
 
 footer#rodape p
@@ -213,6 +265,6 @@ footer#rodape p
     font-family: 'Roboto Mono', monospace;
     font-size: 11pt;
 }
-
+/*FIM*/
 
 
