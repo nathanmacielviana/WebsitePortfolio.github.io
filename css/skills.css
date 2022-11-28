@@ -1,0 +1,106 @@
+#iconehtml
+{
+    position: absolute;
+	left: 55%;
+	top: 58%;
+    bottom: 50%;
+}
+
+/*HAB1*/
+.ski1 h1
+{
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: none;
+    color: white;
+    font-size: 13pt;
+    background-color: cadetblue;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+    margin-block-start: 3rem;
+}
+
+.ski1 p 
+{
+    color: white;
+    text-align: left;
+    border-left: groove;
+    border-right: groove;
+    font-size: 10pt;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+}
+
+.gambiarra p
+{
+    border-bottom: groove;
+}
+
+/*HAB2*/
+.ski2 h1
+{
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: none;
+    color: white;
+    font-size: 13pt;
+    background-color: cadetblue;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+    margin-block-start: 3rem;
+}
+
+.ski2 p
+{
+    color: white;
+    text-align: left;
+    border-left: groove;
+    border-right: groove;
+    font-size: 10pt;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+}
+
+.gambiarra2 p
+{
+    border-bottom: groove;
+}
+
+/*HAB3*/
+.idiomas h1
+{
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: none;
+    color: white;
+    font-size: 13pt;
+    background-color: cadetblue;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+    margin-block-start: 3rem; 
+}
+
+.idiomas p
+{
+    color: white;
+    text-align: left;
+    border-left: groove;
+    border-right: groove;
+    font-size: 10pt;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+}
+
+.gambiarra3 p
+{
+    border-bottom: groove;
+}
