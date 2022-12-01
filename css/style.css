@@ -47,9 +47,6 @@ header
 {
     display: flex;
     gap: 1rem;
-    border-top: white groove thick;
-    border-bottom: white groove thick;
-    box-shadow: 0 0 15px aliceblue;
 }
 
 #menu a
@@ -79,43 +76,38 @@ h1
     font-weight: lighter;
 }
 
-.bemvindo h1
-{
-     color: white;
-     text-align: center;
-     margin-block-start: 2rem;
-     font-family: 'Roboto Mono', monospace;
-     text-shadow: none;
-    text-align: center;
-    background-color: cadetblue;
-    height: 20%;
-     width: 40%;
-     margin-left: 28%;
-}
-
-.bemvindo p
-{
-    text-align: left;
-    margin-left: 27%;
-    padding-bottom: 2%;
-    color: white;
-    border: double medium cadetblue;
-    width: 40%;
-
-    background-color: black;
-}
-
 #cesar
 {
     position: absolute;
 	left: 38%;
-	top: 58%;
+	top: 70%;
     bottom: 50%;
+}
+
+#musica
+{
+    margin-left: 38%;
+    margin-block-start: 4rem;
+}
+
+#colesq
+{
+    position: absolute;
+    left: 3%;
+    top: 60%;
+    bottom: 8%;
+}
+
+#coldir
+{
+    position: absolute;
+    left: 27%;
+    top: 60%;
+    bottom: 8%;
 }
 
 .moon
 {
- padding: 150px 90 90 230px;
  margin-block-start: 2em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -124,13 +116,12 @@ h1
 
 .containermoon
 {
-    border: groove thin;
-    width: 222px;
+    margin-left: 10%;
     text-align: center;
     margin-block-start: 1rem;
     justify-content: right;
     justify-items: right;
-    background-color: black;
+    
 }
 
 /*INTRODUÇÃO*/
@@ -163,22 +154,23 @@ span
 /*Conteúdo*/
 .container-text
 {
-   padding: 250px 10 120 230px;
-   border: groove medium;
+    border: groove;
+    box-shadow: 0 0 12px cadetblue;
+   margin-left: 4%;
    background-color: black;
    width: 350px;
    text-align: center;
    margin-block-start: 1rem;
-   box-shadow: 0 0 12px cadetblue;
    width: 25%;
+   border-bottom: groove thick;
 }
 
 .intro h1
 {
     font-size: 12pt;
     font-family: 'Roboto Mono', monospace;
-    color: white;
     background-color: cadetblue;
+    color: white;
     margin-block-start: 0;
     margin-block-end: 3em;
     margin-inline-start: 0px;
@@ -192,7 +184,7 @@ span
 /*UPDATE*/
 .container-text2
 {
-    
+    margin-left: 4%;
     border: groove medium;
     width: 350px;
     text-align: center;
@@ -223,7 +215,7 @@ span
     color: white;
     list-style-type: square;
     font-family: 'Roboto Mono', monospace;
-    text-align: left;
+    text-align: center;
     font-size: 10pt;
     padding-left: 2%;
 }
@@ -252,8 +244,7 @@ span
 footer#rodape
 {
     border-top: white groove;
-    border-bottom: white groove thick;
-    box-shadow: 0 0 4px aliceblue;
+    border-bottom: white groove;
     background-color: black;
     position: relative;
 }

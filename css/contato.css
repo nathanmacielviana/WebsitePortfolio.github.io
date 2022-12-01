@@ -1,0 +1,72 @@
+#anjo
+{
+    position: absolute;
+	left: 75%;
+	top: 62%;
+    bottom: 50%;
+}
+
+#col1
+{
+    position: absolute;
+    margin-left: 62%;
+    top: 59%;
+    bottom: 8%;
+
+}
+
+#col2
+{
+    position: absolute;
+    margin-left: 32%;
+    top: 59%;
+    bottom: 8%;
+}
+
+#texto
+{
+    padding-block-start: 1rem;
+    padding-block-end: 2rem;
+}
+
+.contato h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: none;
+    border: double medium;
+    color: black;
+    font-weight: bold;
+    font-size: 13pt;
+    background-color:rgb(217, 220, 223);
+    width: 28%;
+    height: 30%;
+    margin-left: 35%;
+    margin-block-start: 8rem;
+}
+
+.contato p 
+{
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    width: 28%;
+    height: 30%;
+    margin-left: 35%; 
+    padding-block-end: 0.5rem;
+}
+
+
+
+.contato p :hover
+{
+    color: white;
+    text-shadow: 0 0 15px white;
+}
+
+.bav p
+{
+    border-bottom: groove;
+    margin-block-end: 20rem;
+}

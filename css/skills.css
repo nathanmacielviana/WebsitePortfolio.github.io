@@ -1,4 +1,4 @@
-#iconehtml
+#pc
 {
     position: absolute;
 	left: 55%;
@@ -103,4 +103,5 @@
 .gambiarra3 p
 {
     border-bottom: groove;
+    margin-block-end: 2rem;
 }
