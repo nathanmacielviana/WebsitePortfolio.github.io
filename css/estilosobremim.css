@@ -4,8 +4,7 @@
      text-align: center;
      font-family: 'Roboto Mono', monospace;
      background-color: cadetblue;
-     box-shadow: 0 0 14px cadetblue;
-     border: groove medium;
+     border: double cadetblue;
      text-shadow: none;
      font-size: 13pt;
      width: 50%;
@@ -18,9 +17,17 @@
     text-align: left;
     font-family: 'Roboto Mono', monospace;
     background-color: black;
-    border: groove medium;
+    border: double cadetblue;
     color: white;
     width: 50%;
     margin-left: 2%;
-    box-shadow: 0 0 14px cadetblue;
+    margin-block-end: 2rem;
+}
+
+#me
+{
+    position: absolute;
+	left: 60%;
+	top: 78%;
+    bottom: 50%;
 }

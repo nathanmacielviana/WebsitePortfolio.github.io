@@ -76,6 +76,7 @@ h1
     font-weight: lighter;
 }
 
+/*IMAGENS PRINCIPAIS*/
 #cesar
 {
     position: absolute;
@@ -84,28 +85,22 @@ h1
     bottom: 50%;
 }
 
+#terra
+{
+    position: absolute;
+	left: 85%;
+	top: 65%;
+    bottom: 50%;
+}
+
+/*MUSIC PLAYER*/
 #musica
 {
     margin-left: 38%;
     margin-block-start: 4rem;
 }
 
-#colesq
-{
-    position: absolute;
-    left: 3%;
-    top: 60%;
-    bottom: 8%;
-}
-
-#coldir
-{
-    position: absolute;
-    left: 27%;
-    top: 60%;
-    bottom: 8%;
-}
-
+/*LUA*/
 .moon
 {
  margin-block-start: 2em;
@@ -154,15 +149,14 @@ span
 /*Conteúdo*/
 .container-text
 {
-    border: groove;
-    box-shadow: 0 0 12px cadetblue;
+    border: double  cadetblue;
    margin-left: 4%;
    background-color: black;
    width: 350px;
    text-align: center;
    margin-block-start: 1rem;
    width: 25%;
-   border-bottom: groove thick;
+   
 }
 
 .intro h1
@@ -189,8 +183,7 @@ span
     width: 350px;
     text-align: center;
     margin-block-start: 1rem;
-    background-color: black;
-    box-shadow: 0 0 12px cadetblue;
+    background-color: rgb(233, 229, 229);
     width: 25%;
     box-sizing: border-box;
 }
@@ -200,24 +193,32 @@ span
     font-size: 12pt;
     font-family: 'Roboto Mono', monospace;
     color: white;
-    text-align: center;
-    background-color: cadetblue;
+    text-align: left;
     text-shadow: none;
     margin-block-start: 0;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     box-shadow: none;
+    background-image: url(/images/win98.jpg);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    background-size: 100%;
 }
 
 .dev p
 {
-    color: white;
+    color: black;
     list-style-type: square;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     font-size: 10pt;
     padding-left: 2%;
+}
+
+#data
+{
+    margin-left: 85%;
 }
 
 /*Botão*/
