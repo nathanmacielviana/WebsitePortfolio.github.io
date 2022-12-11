@@ -94,10 +94,12 @@ h1
 }
 
 /*MUSIC PLAYER*/
+
 #musica
 {
     margin-left: 38%;
-    margin-block-start: 4rem;
+    margin-block-start: 5rem;
+
 }
 
 /*LUA*/
@@ -179,11 +181,11 @@ span
 .container-text2
 {
     margin-left: 4%;
-    border: groove medium;
+    border: double cadetblue;
     width: 350px;
     text-align: center;
     margin-block-start: 1rem;
-    background-color: rgb(233, 229, 229);
+    background-color: black;
     width: 25%;
     box-sizing: border-box;
 }
@@ -193,22 +195,19 @@ span
     font-size: 12pt;
     font-family: 'Roboto Mono', monospace;
     color: white;
-    text-align: left;
+    text-align: center;
     text-shadow: none;
     margin-block-start: 0;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     box-shadow: none;
-    background-image: url(/images/win98.jpg);
-    background-repeat: no-repeat;
-    background-position: 1px;
-    background-size: 100%;
+    background-color: cadetblue;
 }
 
 .dev p
 {
-    color: black;
+    color: white;
     list-style-type: square;
     font-family: 'Roboto Mono', monospace;
     text-align: center;

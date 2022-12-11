@@ -1,0 +1,28 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-block-start: 2rem;
+    height: auto;
+    width: auto;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    box-shadow: 0 0 15px aliceblue;
+  }
+  
+  div.gallery img {
+    left: 50%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    color: white;
+    text-align: center;
+  }
+
+  footer#rodape
+  {
+    margin-top: 50%;
+  }
