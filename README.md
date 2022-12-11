@@ -1,3 +1,3 @@
 
 Meu Website  (Em andamento)
-Ver 0.3;
+Ver 1.0
