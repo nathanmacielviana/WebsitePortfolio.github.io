@@ -1,33 +1,28 @@
 .central h1
 {
     color: white;
+     text-shadow: 0 0 14px cyan;
      text-align: center;
-     font-family: 'Roboto Mono', monospace;
-     background-color: cadetblue;
-     border: double cadetblue;
-     text-shadow: none;
-     font-size: 13pt;
+     font-size: 12pt;
+     font-family: 'Press Start 2P', cursive;
+     margin-block-end: 1rem;
      width: 50%;
      margin-block-start: 3rem;
-     margin-left: 2%;
+     margin-left: 24%;
 }
 
 .central p
 {
     text-align: left;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Gumball', sans-serif;
+    font-weight: lighter;
+    font-size: 13pt;
     background-color: black;
     border: double cadetblue;
-    color: white;
+    color: aliceblue;
     width: 50%;
-    margin-left: 2%;
+    margin-left: 24%;
     margin-block-end: 2rem;
 }
 
-#me
-{
-    position: absolute;
-	left: 60%;
-	top: 78%;
-    bottom: 50%;
-}
+

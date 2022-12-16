@@ -76,50 +76,8 @@ h1
     font-weight: lighter;
 }
 
-/*IMAGENS PRINCIPAIS*/
-#cesar
-{
-    position: absolute;
-	left: 38%;
-	top: 70%;
-    bottom: 50%;
-}
 
-#terra
-{
-    position: absolute;
-	left: 85%;
-	top: 65%;
-    bottom: 50%;
-}
 
-/*MUSIC PLAYER*/
-
-#musica
-{
-    margin-left: 38%;
-    margin-block-start: 5rem;
-
-}
-
-/*LUA*/
-.moon
-{
- margin-block-start: 2em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.containermoon
-{
-    margin-left: 10%;
-    text-align: center;
-    margin-block-start: 1rem;
-    justify-content: right;
-    justify-items: right;
-    
-}
 
 /*INTRODUÇÃO*/
 .intro
@@ -148,7 +106,7 @@ span
     font-weight: bold;
 }
 
-/*Conteúdo*/
+/*Conteúdo esquerda*/
 .container-text
 {
     border: double  cadetblue;
@@ -156,15 +114,33 @@ span
    background-color: black;
    width: 350px;
    text-align: center;
-   margin-block-start: 1rem;
+   margin-block-start: 4rem;
    width: 25%;
    
 }
 
+/*CONTEUDO UPDATE*/
+.container-text h1
+{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 14px cyan;
+    font-size: 10pt;
+    margin-block-start: 2rem;
+}
+
+.container-text ul li
+{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10pt;
+}
+/*fim update*/
+
 .intro h1
 {
-    font-size: 12pt;
-    font-family: 'Roboto Mono', monospace;
+    font-size: 10pt;
+    font-family: 'Press Start 2P', cursive;
     background-color: cadetblue;
     color: white;
     margin-block-start: 0;
@@ -176,49 +152,25 @@ span
     text-shadow: none;
 }
 
-
-/*UPDATE*/
-.container-text2
+/*LUA*/
+.moon
 {
-    margin-left: 4%;
-    border: double cadetblue;
-    width: 350px;
-    text-align: center;
-    margin-block-start: 1rem;
-    background-color: black;
-    width: 25%;
-    box-sizing: border-box;
-}
-
-.dev h1
-{
-    font-size: 12pt;
-    font-family: 'Roboto Mono', monospace;
-    color: white;
-    text-align: center;
-    text-shadow: none;
-    margin-block-start: 0;
+ margin-block-start: 2em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    box-shadow: none;
-    background-color: cadetblue;
 }
 
-.dev p
+.containermoon
 {
-    color: white;
-    list-style-type: square;
-    font-family: 'Roboto Mono', monospace;
+    margin-left: 18%;
     text-align: center;
-    font-size: 10pt;
-    padding-left: 2%;
+    margin-block-start: 1rem;
+    justify-content: right;
+    justify-items: right;    
 }
 
-#data
-{
-    margin-left: 85%;
-}
+
 
 /*Botão*/
 .botao
@@ -239,6 +191,111 @@ span
     margin-block-end: 1em; 
 }
 
+.container-centro
+{
+    border: double  cadetblue;
+    position: relative;
+    left: 29%;
+    background-color: black;
+    width: 350px;
+    text-align: center;
+    margin-block-start: 1rem;
+    width: 45%;
+    bottom: 40rem;
+}
+
+/*Conteúdo Centro*/
+.container-centro h1
+{
+    text-align: center;
+    height: 40%;
+    font-size: 10pt;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-shadow: 0 0 14px cyan;
+    margin-block-start: 1rem;
+}
+
+.container-centro h2
+{
+    background-color: cadetblue;
+    text-align: center;
+    height: 40%;
+    font-size: 10pt;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+    text-shadow: none;
+    margin-block-start: 1rem;
+    margin-block-end: 2rem;
+}
+ 
+.container-centro p
+{
+    color: white;
+    text-align: center;
+    margin-block-end: 2rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8pt;
+}
+
+.container-centro h3
+{
+    color: rgb(236, 89, 163);
+    font-size: 18pt;
+    text-align: center;
+    text-shadow: -1px -1px aliceblue, 2px 2.2px cyan;
+    padding-top: 2px;
+    font-family: 'Gumball', sans-serif;
+    font-weight: lighter;
+}
+
+#cesar
+{
+    position: relative;
+    margin-block-start: 1rem;
+}
+
+#title
+{
+   margin-block-start: 2rem;
+   margin-block-end: 2rem;
+}
+
+/*Conteúdo direita*/
+.container-direita
+{
+    border: double  cadetblue;
+    margin-left: 74%;
+    background-color: black;
+    width: 350px;
+    text-align: center;
+    margin-block-start: 4rem;
+    width: 25%;
+    bottom: 89rem;
+    position: relative;
+}
+
+.container-direita h1
+{
+    font-size: 10pt;
+    font-family: 'Press Start 2P', cursive;
+    background-color: cadetblue;
+    text-shadow: none;
+    color: white;
+}
+
+#like
+{
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+
+.container-direita ul li :hover
+{
+    color: white;
+    text-shadow: 0 0 15px white;
+}
 
 /*Rodapé*/
 footer#rodape
@@ -246,7 +303,6 @@ footer#rodape
     border-top: white groove;
     border-bottom: white groove;
     background-color: black;
-    position: relative;
 }
 
 footer#rodape p
