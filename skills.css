@@ -1,0 +1,107 @@
+#pc
+{
+    position: absolute;
+	left: 55%;
+	top: 58%;
+    bottom: 50%;
+}
+
+/*HAB1*/
+.ski1 h1
+{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 14px cyan;
+    color: white;
+    font-size: 10pt;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+    margin-block-start: 3rem;
+    border-bottom: double cadetblue;
+}
+
+.ski1 p 
+{
+    color: aliceblue;
+    text-align: left;
+    border-left: double cadetblue;
+    border-right: double cadetblue;
+    font-size: 6.5pt;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+}
+
+.gambiarra p
+{
+    border-bottom: double cadetblue;
+}
+
+/*HAB2*/
+.ski2 h1
+{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 14px cyan;
+    color: white;
+    font-size: 10pt;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+    margin-block-start: 3rem;
+    border-bottom: double cadetblue;
+}
+
+.ski2 p
+{
+    color: white;
+    text-align: left;
+    border-left: double cadetblue;
+    border-right: double cadetblue;
+    font-size: 6.5pt;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+}
+
+.gambiarra2 p
+{
+    border-bottom: double cadetblue;
+}
+
+/*HAB3*/
+.idiomas h1
+{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 14px cyan;
+    color: white;
+    font-size: 10pt;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+    margin-block-start: 3rem; 
+    border-bottom: double cadetblue;
+}
+
+.idiomas p
+{
+    color: white;
+    text-align: left;
+    border-left: double cadetblue;
+    border-right: double cadetblue;
+    font-size: 6.5pt;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    width: 28%;
+    height: 30%;
+    margin-left: 12%;
+}
+
+.gambiarra3 p
+{
+    border-bottom: double cadetblue;
+    margin-block-end: 2rem;
+}

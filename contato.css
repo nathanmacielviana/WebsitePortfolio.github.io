@@ -1,0 +1,70 @@
+
+#anjo
+{
+    position: absolute;
+	left: 75%;
+	top: 62%;
+    bottom: 50%;
+}
+
+#anjo2
+{
+    position: absolute;
+    top: 62%;
+    bottom: 50%;
+    left: 5%;
+}
+
+#texto
+{
+    padding-block-start: 1rem;
+    padding-block-end: 2rem;
+}
+
+.contato h1
+{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 14px cyan;
+    color: white;
+    border-bottom: double cadetblue;
+    font-weight: bold;
+    font-size: 10pt;
+    width: 28%;
+    height: 30%;
+    margin-left: 35%;
+    margin-block-start: 8rem;
+}
+
+.contato p 
+{
+    color: white;
+    text-align: center;
+    font-size: 8pt;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    width: 28%;
+    height: 30%;
+    margin-left: 35%; 
+    padding-block-end: 0.5rem;
+    border-left: double cadetblue;
+    border-right: double cadetblue;
+}
+
+.contato a
+{
+    color: cyan;
+    text-shadow: 0 0 14px cyan;
+}
+
+
+.contato p :hover
+{
+    color: white;
+    text-shadow: 0 0 15px white;
+}
+
+.bav p
+{
+    border-bottom: double cadetblue;
+    margin-block-end: 20rem;
+}
