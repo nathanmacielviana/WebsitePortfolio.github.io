@@ -110,14 +110,13 @@ span
 /*Conteúdo esquerda*/
 .container-text
 {
-    border: double  cadetblue;
-   margin-left: 4%;
+    border: double rgb(69, 196, 201);
+   margin-left: 2%;
    background-color: black;
-   width: 350px;
    text-align: center;
    margin-block-start: 4rem;
    width: 25%;
-   
+ 
 }
 
 /*CONTEUDO UPDATE*/
@@ -133,24 +132,22 @@ span
 .container-text ul li
 {
     color: white;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 10pt;
+    font-family: serif;
+    font-size: 11pt;
 }
 /*fim update*/
 
 .intro h1
 {
-    font-size: 10pt;
-    font-family: 'Press Start 2P', cursive;
-    background-color: cadetblue;
-    color: white;
+    font-family: 'Gumball', sans-serif;
+    background-color: rgb(20, 171, 177);
+    color: aliceblue;
+    text-shadow: none;
+    font-size: 14pt;
     margin-block-start: 0;
-    margin-block-end: 3em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-block-end: 2em;
     box-shadow: none;
     text-align: center;
-    text-shadow: none;
 }
 
 /*LUA*/
@@ -193,16 +190,13 @@ span
 }
 
 .container-centro
-{
-    border: double  cadetblue;
+{  
     position: relative;
     left: 29%;
-    background-color: black;
-    width: 350px;
     text-align: center;
     margin-block-start: 1rem;
     width: 45%;
-    bottom: 40rem;
+    bottom: 45rem;
 }
 
 /*Conteúdo Centro*/
@@ -214,23 +208,9 @@ span
     font-family: 'Press Start 2P', cursive;
     color: white;
     text-shadow: 0 0 14px cyan;
-    margin-block-start: 1rem;
 }
 
-.container-centro h2
-{
-    background-color: cadetblue;
-    text-align: center;
-    height: 40%;
-    font-size: 10pt;
-    font-family: 'Press Start 2P', cursive;
-    background-color: black;
-    color: white;
-    text-shadow: none;
-    margin-block-start: 1rem;
-    margin-block-end: 2rem;
-}
- 
+
 .container-centro p
 {
     color: white;
@@ -238,7 +218,7 @@ span
     margin-block-end: 2rem;
     font-family: 'Press Start 2P', cursive;
     font-size: 8pt;
-    border-bottom: 1px dotted white;
+    margin-block-start: 1rem;
 }
 
 #cesar
@@ -259,28 +239,26 @@ span
 /*Conteúdo direita*/
 .container-direita
 {
-    border: double  cadetblue;
-    margin-left: 74%;
+    border: double  rgb(69, 196, 201);
+    left: 74%;
     background-color: black;
     width: 350px;
     text-align: center;
     margin-block-start: 4rem;
     width: 25%;
-    bottom: 83.8rem;
+    bottom: 112.6rem;
     position: relative;
 }
 
 .container-direita h1
 {
-    color: rgb(236, 89, 163);
-    text-align: center;
-    text-shadow: -1px -1px aliceblue, 2px 2.2px cyan;
-    padding-top: 2px;
     font-family: 'Gumball', sans-serif;
-    font-weight: lighter;
-    font-size: 15pt;
+    background-color: rgb(69, 196, 201);
+    color: aliceblue;
+    text-shadow: none;
+    font-size: 14pt;
     margin-block-end: 1rem;
-    margin-block-start: 1rem;
+    
 }
 
 .container-direita h2
@@ -312,19 +290,20 @@ span
     color: #6676ec;
 }
 
+
+
 /*Rodapé*/
 footer#rodape
 {
     position: relative;
-    top: 400px;
-    border-top: white groove;
-    border-bottom: white groove;
-    background-color: black;
-    max-width: fit-content;
-    max-height: fit-content;
-    width: fit-content;
-    height: fit-content;
-
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 54px;
+            background: black;
+            border-top: groove;
+            border-bottom: groove;
 }
 
 footer#rodape p
@@ -332,7 +311,7 @@ footer#rodape p
     text-align: center;
     color: yellow;
     font-family: 'Press Start 2P', cursive;
-    font-size: 8pt;
+    font-size: 7pt;
 }
 /*FIM*/
 

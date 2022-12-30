@@ -6,6 +6,13 @@
     bottom: 50%;
 }
 
+.botao2
+{
+    position: absolute;
+	left: 58%;
+    top: 98%;
+}
+
 /*HAB1*/
 .ski1 h1
 {
@@ -17,15 +24,15 @@
     height: 30%;
     margin-left: 12%;
     margin-block-start: 3rem;
-    border-bottom: double cadetblue;
+    border-bottom: double rgb(69, 196, 201);
 }
 
 .ski1 p 
 {
     color: aliceblue;
     text-align: left;
-    border-left: double cadetblue;
-    border-right: double cadetblue;
+    border-left: double rgb(69, 196, 201);
+    border-right: double rgb(69, 196, 201);
     font-size: 6.5pt;
     font-family: 'Press Start 2P', cursive;
     background-color: black;
@@ -36,7 +43,7 @@
 
 .gambiarra p
 {
-    border-bottom: double cadetblue;
+    border-bottom: double rgb(69, 196, 201);
 }
 
 /*HAB2*/
@@ -50,15 +57,15 @@
     height: 30%;
     margin-left: 12%;
     margin-block-start: 3rem;
-    border-bottom: double cadetblue;
+    border-bottom: double rgb(69, 196, 201);
 }
 
 .ski2 p
 {
     color: white;
     text-align: left;
-    border-left: double cadetblue;
-    border-right: double cadetblue;
+    border-left: double rgb(69, 196, 201);
+    border-right: double rgb(69, 196, 201);
     font-size: 6.5pt;
     font-family: 'Press Start 2P', cursive;
     background-color: black;
@@ -69,7 +76,7 @@
 
 .gambiarra2 p
 {
-    border-bottom: double cadetblue;
+    border-bottom: double rgb(69, 196, 201);
 }
 
 /*HAB3*/
@@ -83,15 +90,15 @@
     height: 30%;
     margin-left: 12%;
     margin-block-start: 3rem; 
-    border-bottom: double cadetblue;
+    border-bottom: double rgb(69, 196, 201);
 }
 
 .idiomas p
 {
     color: white;
     text-align: left;
-    border-left: double cadetblue;
-    border-right: double cadetblue;
+    border-left: double rgb(69, 196, 201);
+    border-right: double rgb(69, 196, 201);
     font-size: 6.5pt;
     font-family: 'Press Start 2P', cursive;
     background-color: black;
@@ -102,6 +109,6 @@
 
 .gambiarra3 p
 {
-    border-bottom: double cadetblue;
+    border-bottom: double rgb(69, 196, 201);
     margin-block-end: 2rem;
 }

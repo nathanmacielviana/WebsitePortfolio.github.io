@@ -1,3 +1,4 @@
+
 #anjo
 {
     position: absolute;
@@ -14,23 +15,6 @@
     left: 5%;
 }
 
-#col1
-{
-    position: absolute;
-    margin-left: 62%;
-    top: 59%;
-    bottom: 8%;
-
-}
-
-#col2
-{
-    position: absolute;
-    margin-left: 32%;
-    top: 59%;
-    bottom: 8%;
-}
-
 #texto
 {
     padding-block-start: 1rem;
@@ -39,13 +23,13 @@
 
 .contato h1
 {
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: none;
-    border: double medium;
-    color: black;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0 0 14px cyan;
+    color: white;
+    border-bottom: double rgb(69, 196, 201);
+    border-radius: 4px;
     font-weight: bold;
-    font-size: 13pt;
-    background-color:rgb(217, 220, 223);
+    font-size: 10pt;
     width: 28%;
     height: 30%;
     margin-left: 35%;
@@ -56,15 +40,22 @@
 {
     color: white;
     text-align: center;
-    font-size: 10pt;
-    font-family: 'Roboto Mono', monospace;
+    font-size: 8pt;
+    font-family: 'Press Start 2P', cursive;
     background-color: black;
     width: 28%;
     height: 30%;
     margin-left: 35%; 
     padding-block-end: 0.5rem;
+    border-left: double rgb(69, 196, 201);
+    border-right: double rgb(69, 196, 201);
 }
 
+.contato a
+{
+    color: cyan;
+    text-shadow: 0 0 14px cyan;
+}
 
 
 .contato p :hover
@@ -75,6 +66,6 @@
 
 .bav p
 {
-    border-bottom: groove;
+    border-bottom: double cadetblue;
     margin-block-end: 20rem;
 }
