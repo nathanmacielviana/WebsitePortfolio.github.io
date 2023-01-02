@@ -1,0 +1,23 @@
+@media (max-width: 950px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #menu
+    {
+        display: flex;
+        gap: 4rem;
+    }
+
+    header
+    {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    }
+}

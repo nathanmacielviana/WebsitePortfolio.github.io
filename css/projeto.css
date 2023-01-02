@@ -1,10 +1,11 @@
 div.gallery {
-    margin: 5px;
+    margin: 6px;
     border: 1px solid #ccc;
     float: left;
     margin-block-start: 2rem;
     height: auto;
     width: auto;
+    
   }
   
   div.gallery:hover {

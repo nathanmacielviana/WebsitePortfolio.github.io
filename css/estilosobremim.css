@@ -14,9 +14,8 @@
 .central p
 {
     text-align: left;
-    font-family: 'Press Start 2P', cursive;
     font-weight: lighter;
-    font-size: 9pt;
+    font-size: 13pt;
     background-color: black;
     border: double rgb(69, 196, 201);
     border-radius: 4px;
